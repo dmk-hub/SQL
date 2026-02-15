@@ -28,10 +28,11 @@ mysql -u root -p
 ```bash
 CREATE USER 'dbuser'@'localhost' IDENTIFIED BY 'Password!';
 ```
-dbuser → the username you want.
-
-localhost → restricts login to local machine (use % for any host if you want remote access).
-
+<p align="center">
+dbuser → the username you want.<br>
+localhost → restricts login to local machine (use % for any host if you want remote access).<br>
 Password → replace with a secure password.
+</p>
+
 
 
