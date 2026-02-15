@@ -10,7 +10,7 @@ sudo apt install mysql-server -y
 sudo systemctl start mysql
 sudo systemctl enable mysql
 ```
-## 🔐 Run the security configuration (set root password, remove test database, disable remote root login):
+## 🔐 Run the security configuration
 ```bash
 sudo mysql_secure_installation
 ```
